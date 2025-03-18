@@ -19,6 +19,11 @@ public class ElevAngajat extends Persoana implements Elev,Angajat{
     }
     public void infoElevAngajat(){
         infoPersoana();
+        System.out.println("Elevul studiaza la scoala:"+scoala);
+        System.out.println("Elevul este in clasa:"+ clasa);
+        System.out.println("Angajatul lucreaza la firma:" +firma);
+        System.out.println("Angajatul are experienta" + experienta);
+        System.out.println("Salariul angajatului este de: " + salar);
     }
 
     public String getScoala() {
