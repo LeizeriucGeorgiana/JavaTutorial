@@ -8,4 +8,6 @@ public class Elefant {
         animal.metodaProtected();
         animal.metodaPublica();
     }
+
+    //cand se fac actiuni, in acelasi pachet, intre metodele public,default si public nu este nici o diferenta, insa metoda private nu iese din clasa respectiva indiferent ca vb de mostenire sau obiect
 }
